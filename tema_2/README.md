@@ -95,7 +95,7 @@ for ($i = 1; $i <= 10; $i++) {
 ?>
 ```
 
-### Foreach (La joya de PHP)
+### Foreach
 Es la forma más eficiente de iterar sobre **arrays y objetos**. Permite el uso de referencias (`&`) para modificar datos directamente.
 
 ```php
