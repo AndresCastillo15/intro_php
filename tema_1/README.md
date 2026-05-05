@@ -82,4 +82,4 @@ Aumentan o disminuyen el valor de una variable en una unidad.
 * **Decremento:** `--$x` (pre-decremento) o `$x--` (post-decremento).
 
 # magen explicativa con IA
-![ImagenIA2](img/Explicacion_tema1.png)
+![ImagenIA](/img/Explicacion_tema1.png)
