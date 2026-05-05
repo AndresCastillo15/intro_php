@@ -1,7 +1,7 @@
 
 ---
 
-# Guía Técnica de Estructuras de Control en PHP: Masterclass para Desarrolladores
+# Guía Técnica de Estructuras de Control en PHP
 
 
 ## 1. Estructuras de Selección (Decisión)
@@ -22,6 +22,7 @@ elseif ($a == 6):
 else:
     echo "a no es ni 5 ni 6";
 endif; 
+?>
 ```
 
 ### Operador Ternario (Shorthand)
@@ -32,6 +33,7 @@ Ideal para asignaciones rápidas y decisiones simples de una sola línea.
 <?php
 $age = 20;
 $status = ($age >= 18) ? "adulto" : "menor";
+?>
 ```
 
 ### Match (PHP 8+) vs Switch
@@ -56,6 +58,7 @@ $category = match (true) {
     $age >= 18 => 'adulto',
     default    => 'niño',
 };
+?>
 ```
 
 ---
@@ -89,6 +92,7 @@ Estructura predilecta cuando se conoce de antemano el número exacto de repetici
 for ($i = 1; $i <= 10; $i++) {
     echo "Iteración número: $i";
 }
+?>
 ```
 
 ### Foreach (La joya de PHP)
@@ -109,6 +113,7 @@ foreach ($nums as &$value) {
     $value = $value * 2; // Duplica el valor en el array original
 }
 unset($value); // PRÁCTICA SENIOR: Eliminar la referencia para evitar errores lógicos
+?>
 ```
 
 ---
@@ -131,4 +136,4 @@ Para mantener un código de nivel Senior, es imperativo seguir estas reglas de e
 
 # Imagen Explicativa con IA
 
-![ImagenIA](/img/Gemini_Generated_Image_t53yn6t53yn6t53y.png)
+![ImagenIA](/img/Explicacion_tema2.png)

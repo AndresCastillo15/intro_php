@@ -12,5 +12,4 @@ foreach ($nums as &$value) {
     $value = $value * 2; // Duplica el valor en el array original
 }
 unset($value); // PRÁCTICA SENIOR: Eliminar la referencia para evitar errores lógicos
-
 ?>
